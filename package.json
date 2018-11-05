@@ -2,10 +2,19 @@
   "name": "sets",
   "version": "0.1.0",
   "private": true,
+  "main":"server/server.js",
+  "proxy": "http://localhost:2000",
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.1.0",
     "env": "0.0.2",
+    "express": "^4.16.4",
+    "massive": "^5.5.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {
