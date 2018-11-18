@@ -19,6 +19,10 @@ const app=express();
 app.use(bodyparser.json());
 app.use(cors());
 
+app.get(`api/user`,controller.getUser)
+app.post(`api/user`,controller.postUser)
+/*app.put(`api/user`,controller.updateUser)*/
+/*app.delete(`api/user`,controller.removeUser)*/
 
 app.get(`api/tracker`,controller.getTracker)
 app.post(`api/tracker`,controller.postTracker)

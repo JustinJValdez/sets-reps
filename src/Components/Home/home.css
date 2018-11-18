@@ -1,0 +1,37 @@
+.homeBox1{
+    text-align: center;
+    background-color: grey;
+    width:600px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top:75px;
+}
+.newButton{
+    position: relative;
+    top: 50px;
+    font-size: 60pt;
+    color: black;
+    background-color: grey;
+    border: none;
+
+}
+.oldButton{
+    position: relative;
+    top: 50px;
+    font-size: 60pt;
+    color: black;
+    background-color: grey;
+    border: none;
+
+}
+.homeBox2{
+    text-align: center;
+    background-color: grey;
+    width:600px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top:140px;
+    margin-top: 5px;
+}

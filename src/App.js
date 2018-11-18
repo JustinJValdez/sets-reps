@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
 import './App.css';
-import Auth from './Components/Auth/auth';
 import Header from './Components/Header/header';
-import Edit from './Components/Edit/edit';
-import Home from './Components/Home/home';
+import route from './route';
+
+
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Auth/>
-        <Header/>
-        <Edit/>
-        <Home/>
+
+      <div className="app">
+        <div>
+          <Header />
+        </div>
+        {route}
       </div>
+
     );
   }
 }

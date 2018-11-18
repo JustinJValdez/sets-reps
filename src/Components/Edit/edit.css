@@ -1,0 +1,20 @@
+.editBox{
+    text-align: center;
+    background-color: grey;
+    width:600px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top:250px;
+}
+
+.subButton{
+    text-align: center;
+    position: static;
+    margin-top: 155px;
+    font-size: 25pt;
+    color: black;
+    border:none;
+    background-color: grey;
+
+}

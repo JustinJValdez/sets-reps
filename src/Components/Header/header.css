@@ -1,0 +1,27 @@
+.header{
+    background-color: #117DC1;
+    width: 100vw;
+    height: 100px;
+    padding: 0;
+}
+.divOne{
+    font-size: 40pt;
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    text-align: left;
+}
+.divTwo{
+    font-size: 60pt;
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+}
+.logout{
+    font-size: 30pt;
+    color: white;
+    background-color: #117DC1;
+    border: none;
+    pointer-events: none;
+
+}

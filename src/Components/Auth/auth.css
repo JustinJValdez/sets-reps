@@ -1,0 +1,48 @@
+.authBox{
+    text-align: center;
+    background-color: grey;
+    width:600px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top:250px;
+}
+.authButtons{
+    text-align: center;
+    position: relative;
+    top: 7%;
+    
+}
+.userBox1{
+    height:50px;
+    width:300px;
+    font-size:28pt;
+    text-align: center;
+    color:black;
+    background-color: #117DC1;
+    border-color:black;
+    border-style: solid;
+
+}
+.userBox2{
+    height:50px;
+    width:300px;
+    font-size:28pt;
+    text-align: center;
+    color:black;
+    background-color: #117DC1;
+    border-color:black;
+    border-style: solid;
+}
+.login{
+    font-size: 50pt;
+    color: black;
+    background-color: grey;
+    border: none;
+}
+.register{
+    font-size: 50pt;
+    color: black;
+    background-color: grey;
+    border: none;
+}
